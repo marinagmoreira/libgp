@@ -9,7 +9,7 @@
 
 namespace libgp
 {
-  /** Sums of covariance functions.
+  /** Multiplication of covariance functions.
    *  @author Manuel Blum 
    *  @ingroup cov_group */
   class CovProd : public CovarianceFunction
