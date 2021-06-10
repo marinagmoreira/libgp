@@ -19,4 +19,4 @@ LINK_DIRECTORIES (${CMAKE_CURRENT_BINARY_DIR}/gtest/src/googletest-build)
 INCLUDE("Sources.cmake")
 
 ADD_EXECUTABLE(gptest ${LIBGP_TESTS})
-TARGET_LINK_LIBRARIES(gptest gp ${CMAKE_THREAD_LIBS_INIT} gtest gtest_main)
+TARGET_LINK_LIBRARIES(gptest gp ${CMAKE_THREAD_LIBS_INIT} gtest gtest_main pthread)
