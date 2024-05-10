@@ -70,6 +70,6 @@ export(TARGETS gp
     FILE "${CMAKE_CURRENT_BINARY_DIR}/gpConfig.cmake"
 )
 install(EXPORT gpConfig
-    DESTINATION "${CMAKE_INSTALL_DATADIR}/gp/cmake"
+    DESTINATION "${INSTALL_LIB_DIR}/gp/cmake"
     NAMESPACE gp::
 )
